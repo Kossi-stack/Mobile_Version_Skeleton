@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/**
+*
+* The toolbars includes:
+* - Navigation bar
+* - Logo
+* - Menu button
+ layout header  */
+
+.header {
+  height: 50px;
+  background-color: #fff;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  height: 2em;
+  padding: 0.5em 1em;
+}
+
+.nav-buttons a:hover {
+  text-decoration: none;
+  height: 2em;
+  color: rgb(62, 151, 96);
+}
+
+/**
+*
+* The headline includes:
+* - paragraph
+* - social media
+* - headine
+ layout headline  */
+
+main {
+  position: relative;
+  background-color: #e5e5e5;
+}
+
+#main-page {
+  background-image: url(assets/Header_bg@2x.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.header-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-text {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.main-page-paragr {
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.social-media ul li {
+  list-style: none;
+}
+
+.social-media-text {
+  color: #7f8cff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+h1,
+h3 {
+  color: #091e42;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-buttons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .fontawesome {
+    display: none;
+  }
+}
