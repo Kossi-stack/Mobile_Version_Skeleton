@@ -2,11 +2,13 @@
 
 # Mobile_Version_Skeleton
 
-> This project is to review a past project and demonstrate the understanding a review from code reviewers.
+> This project is to create a mobile version skeleton using Figma template
 
 ![screenshot](./assets\portfoliopic.JPG)
 
-This project is to review one of past project from microverse trial by adding html file css file, test.md file and adding test.md file to .gitignore file. It is a tribute page that contains two sections a header, the main page, and CSS to style it.
+This project is to create a mobile version skeleton using Figma template
+It is a web page that contains two sections a header, the main page, and CSS to style it. I added index.html file and style.css file, test.md file, and test.md file to .gitignore file
+
 ## Built With
 
 - Html
