@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   width: 375px;
-  height: 1263px;
+  /**height: 2063px;**/
 }
 
 /**
