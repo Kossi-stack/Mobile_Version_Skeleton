@@ -4,10 +4,10 @@
 
 > This project is to create a mobile version skeleton using Figma template
 
-![screenshot](./assets\portfoliopic.JPG)
+![screenshot]()
 
 This project is to create a mobile version skeleton using Figma template
-It is a web page that contains two sections in the first section we have a header, the main page, and the second section contain works page, about page and CSS to style it. I added index.html file and style.css file, test.md file, and test.md file to .gitignore file
+It is a web page that contains three sections in the first section we have a header, the main page, the second section contain works page, about page, and the last section contain a contact form and CSS to style it. I added index.html file and style.css file, test.md file, and test.md file to .gitignore file
 
 ## Built With
 

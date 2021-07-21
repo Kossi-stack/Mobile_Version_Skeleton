@@ -6,7 +6,6 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   width: 375px;
-  /**height: 2063px;**/
 }
 
 /**
@@ -136,10 +135,6 @@ h2 {
   color: #7f8cff;
 }
 
-h5 {
-  text-align: center;
-}
-
 p {
   color: #344563;
 }
@@ -254,12 +249,15 @@ img {
   border-radius: 8px;
 }
 
+.about-page-1 {
+  background-color: #fff;
+}
+
 .about-content {
   display: flex;
   flex-direction: column;
   margin: 0;
   width: 100%;
-  position: absolute;
   padding: 16px;
   border-radius: 0 35px 0 0;
   border: 0.3px solid #dfe1e6;
@@ -333,19 +331,26 @@ img {
   height: 66.72px;
 }
 
+.contact-container {
+  background-image: url(assets/Contact_me.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 70px 0 0 0;
+}
+
 form {
   display: flex;
   flex-direction: column;
 }
+
 .container {
   border-radius: 5px;
-  margin-top: -110px;
   align-items: center;
-  padding: 150px;
+  padding: 24px;
 }
 
 .contact-container-1 {
-  padding-top: 103px;
+  padding-top: 12px;
 }
 
 h5 {
@@ -355,43 +360,62 @@ h5 {
   font-weight: bold;
   line-height: 52px;
   align-items: center;
-  font-family:  'Poppins', sans-serif;
-  margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 8px;
 }
 
-p {
+.tonic-par1 {
   color: white;
-  width: 50%;
+  width: 90%;
   text-align: center;
-  margin: 0 auto;
   font-size: 20px;
   font-weight: normal;
   line-height: 28px;
   font-family: 'Poppins', sans-serif;
-
+  margin: 24px;
 }
 
 input[type=submit] {
-width: 140px;
-height: 48px;
-background-color: #fff;
-color: #6070ff;
-padding: 12px 16px;
-border: none;
-border-radius: 8px;
-cursor: pointer;
-font-family:  'Poppins', sans-serif;
-align-items: center;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
+  width: 140px;
+  height: 48px;
+  background-color: #fff;
+  color: #6070ff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 327px;
-  padding: 12px; 
-  border: 1px solid #cfd8d
+  padding: 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
 
+input[type=email] {
+  width: 327px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 600px) {
   .nav-buttons {
