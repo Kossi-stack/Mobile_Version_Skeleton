@@ -21,7 +21,7 @@ body {
   background-color: #fff;
 }
 
-#nav-bar {
+.nav-bar {
   display: flex;
   justify-content: space-between;
   width: 70%;
@@ -61,7 +61,7 @@ main {
   background-color: #e5e5e5;
 }
 
-#main-page {
+.main-page {
   background-image: url(assets/Header_bg@2x.jpg);
   height: 100%;
   background-size: cover;
@@ -147,7 +147,7 @@ img {
   color: #f7f7f9;
 }
 
-#Projects {
+.Projects {
   margin: 0 auto;
   background-color: #e5e5e5;
   border-radius: 0 0 20px 0;
@@ -460,15 +460,16 @@ input[type=email] {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     width: 1600px;
+    overflow-x: hidden;
   }
 
   .header {
     height: 280px;
     background-color: #fff;
-    padding: 25px 155px;
+    padding: 25px 142px;
   }
 
-  #nav-bar {
+  .nav-bar {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -500,7 +501,7 @@ input[type=email] {
     background-color: #e5e5e5;
   }
 
-  #main-page {
+  .main-page {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -584,7 +585,7 @@ input[type=email] {
     color: #f7f7f9;
   }
 
-  #Projects {
+  .Projects {
     margin: 0 auto;
     background-color: #e5e5e5;
     border-radius: 0 0 20px 0;
