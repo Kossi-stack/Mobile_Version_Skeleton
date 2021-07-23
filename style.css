@@ -30,6 +30,11 @@ body {
   align-items: center;
 }
 
+.nav-bar #logo {
+  transition-duration: 1s;
+  transform: rotate(360deg);
+}
+
 .nav-buttons {
   display: flex;
   list-style-type: none;
