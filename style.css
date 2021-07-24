@@ -21,6 +21,11 @@ body {
   background-color: #fff;
 }
 
+#logo {
+  transition-duration: 1s;
+  transform: rotate(360deg);
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -152,6 +157,16 @@ img {
   background-color: #e5e5e5;
   border-radius: 0 0 20px 0;
   width: 375px;
+}
+
+.tonic .img:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+.tonic9 .img:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
 }
 
 .tonic-3 {
