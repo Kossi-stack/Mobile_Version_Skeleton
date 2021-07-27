@@ -11,7 +11,7 @@ It is a web page that contains three sections in the first section we have a hea
 
 ## Live Demo
 
-[Live Demo Link](https://kossi-stack.github.io/Mobile_Version_Skeleton/)
+[Live Demo Link](https://raw.githack.com/Kossi-stack/Mobile_Version_Skeleton/github-deployment/index.html)
 
 ## Built With
 
