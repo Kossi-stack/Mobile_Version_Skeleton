@@ -118,7 +118,7 @@ ul {
 }
 
 .social-media-text {
-  color: #7f8cff;
+  color: #172b4d;
   font-size: 18px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -250,7 +250,7 @@ img {
   padding: 4px 12px;
   background-color: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 .btn-2 button {
@@ -258,7 +258,7 @@ img {
   padding: 10px 20px;
   outline: none;
   background-color: transparent;
-  color: #6070ff;
+  color: #172b4d;
   border-radius: 12px;
   box-sizing: border-box;
   margin: 22px 0;
@@ -585,7 +585,7 @@ input[type=email] {
   }
 
   .social-media-text {
-    color: #7f8cff;
+    color: #172b4d;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -733,7 +733,7 @@ input[type=email] {
     padding: 4px 12px;
     background-color: #ebebff;
     border-radius: 8px;
-    color: #6070ff;
+    color: #172b4d;
   }
 
   .btn-2 button {
@@ -741,7 +741,7 @@ input[type=email] {
     padding: 10px 20px;
     outline: none;
     background-color: transparent;
-    color: #6070ff;
+    color: #172b4d;
     border-radius: 12px;
     box-sizing: border-box;
     margin: 22px 0;
