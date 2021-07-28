@@ -129,7 +129,14 @@ ul {
   width: 20px;
 }
 
-h1,
+h1 {
+  color: #091e42;
+}
+
+h2 {
+  color: #7f8cff;
+}
+
 h3 {
   color: #091e42;
 }
@@ -141,10 +148,6 @@ h4 {
   line-height: 44px;
   font-family: 'Poppins', sans-serif;
   margin: 12px 0;
-}
-
-h2 {
-  color: #7f8cff;
 }
 
 p {
@@ -240,7 +243,7 @@ img {
 .tonic-2 ul li {
   display: inline-block;
   padding: 0 5px;
-  color:black;
+  color: black;
 }
 
 .lag ul li {
