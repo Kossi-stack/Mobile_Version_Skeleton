@@ -2,12 +2,16 @@
 
 # Mobile_Version_Skeleton
 
-> This project is to create a mobile version skeleton using Figma template
+> This project is to create a mobile version skeleton using Figma template.
 
-![screenshot](./assets\portfoliopic.JPG)
+![screenshot](assets/desktopv.JPG)
 
 This project is to create a mobile version skeleton using Figma template
-It is a web page that contains two sections in the first section we have a header, the main page, and the second section contain works page, about page and CSS to style it. I added index.html file and style.css file, test.md file, and test.md file to .gitignore file
+It is a web page that contains three sections in the first section we have a header, the main page, the second section contains works page, about page, and the last section contains a contact form and CSS to style it. I added index.html file and style.css file, test.md file, and test.md file to .gitignore file.
+
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/Kossi-stack/Mobile_Version_Skeleton/github-deployment/index.html)
 
 ## Built With
 
