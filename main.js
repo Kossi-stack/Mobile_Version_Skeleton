@@ -1,6 +1,6 @@
 const mobileMenu = document.getElementById('menu');
 const closeIcon = document.getElementById('close-menu');
-const openIcon = document.getElementById('hamburger-icon');
+const openIcon = document.getElementById('fontawesome-icon');
 
 function menuClose() {
   mobileMenu.style.left = '-110%';
