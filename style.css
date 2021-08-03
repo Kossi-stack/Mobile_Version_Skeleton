@@ -59,7 +59,8 @@ body {
 * - paragraph
 * - social media
 * - headine
- layout headline  */
+ layout headline 
+**/
 
 main {
   position: relative;
@@ -534,8 +535,26 @@ input[type=email] {
   position: absolute;
   width: 100px;
   height: 250px;
-  left
+  left: 0;
+  top: 150px;
+  background: rgba(237, 236, 255, 0.6);
+  filter: blur(50px);
+  transform: rotate(25.09deg);
+  cursor: pointer;
+  z-index: 0;
+}
 
+.mobile-2 {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  left: 64%;
+  top: 400px;
+  background: rgba(237, 236, 255, 0.9);
+  filter: blur(50px);
+  transform: rotate(150deg);
+  overflow: hidden;
+}
 
 @media screen and (max-width: 600px) {
   .nav-buttons {
