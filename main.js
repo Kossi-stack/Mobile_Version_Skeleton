@@ -10,7 +10,7 @@ function menuOpen() {
   mobileMenu.style.left = '0';
 }
 
-document.querySelectorAll('.classList').forEach((item) => {
+document.querySelectorAll('.menuList').forEach((item) => {
   item.addEventListener('click', () => {
     mobileMenu.style.left = '-110%';
   });
