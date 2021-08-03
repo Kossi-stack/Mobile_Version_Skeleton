@@ -9,6 +9,19 @@
     <title>Kossi Fioklou Portfolio</title>
 </head>
 <body>
+   <!-- Mobile Menu -->
+ <div id="menu" class="mobile-menu">
+  <ul >
+    <li class="menuList"><a href="#portfolio">Portfolio</a></li>
+    <li class="menuList"><a href="#about">About</a></li>
+    <li class="menuList"><a href="#contact">Contact</a></li>
+  </ul>
+  <img src="assets/Icon.png" alt="Close-Menu" class="close" id="close-menu">
+  <div class="mobile-1"></div>
+  <div class="mobile-2"></div>
+</div>
+<!-- End --> 
+
     <!--This is the section for the header-->
     <header class="header">
       <nav class="nav-bar">
@@ -18,11 +31,11 @@
             </a> 
         </div>
           <div class="nav-buttons">
-            <a href="#works" class="nav-button">Portfolio</a>
+            <a href="#portfolio" class="nav-button">Portfolio</a>
             <a href="#about" class="nav-button">About</a>
             <a href="#contact" class="nav-button">Contact</a>
           </div>
-           <div class="fontawesome">
+           <div class="fontawesome" id="fontawesome-icon">
             <i class="fa fa-bars"></i>
            </div>
       </nav>
@@ -89,7 +102,7 @@
     </section>
       <!--works section talks about all the project i have done so far-->
 
-      <section class="Projects">
+      <section class="Projects" id="portfolio">
         <ul class="works">
           <li class="work">
             <div class="facebook-360">
@@ -215,7 +228,7 @@
         </section>
               <!-- About myself page talks of my carrer as sof -->
   
-        <section class="about-page about-page-1">
+        <section class="about-page about-page-1" id="about">
           <div class="about-content">
             <div class="about-content1">
             <h3 class="about-text">About <br> Myself </h3> 
@@ -312,7 +325,7 @@
       </section>
     </main>
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
       <div class="contact-container-1">
         <h5>
           Contact me
@@ -343,5 +356,6 @@
         </form>
       </div> 
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
