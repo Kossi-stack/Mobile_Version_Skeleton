@@ -277,6 +277,62 @@ img {
   border-radius: 12px;
 }
 
+.hidden {
+  display: none;
+}
+
+.card-img {
+  margin-bottom: 8px;
+}
+
+.popup-close-btn {
+  height: 1rem;
+  position: absolute;
+  width: 1rem;
+  right: 4rem;
+  top: 6rem;
+  background-color: #67798e;
+  border: 2px solid #67798e;
+}
+
+.popup-button {
+  margin: 0 auto;
+}
+
+.button {
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 6px;
+  color: #6070ff;
+}
+
+.button img {
+  width: 13%;
+  height: 20px;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+.card-info-dot {
+  width: 100%;
+}
+
+.btn-element {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
 .contact {
   color: #f7f7f9;
 }
