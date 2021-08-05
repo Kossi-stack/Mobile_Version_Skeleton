@@ -558,6 +558,21 @@ h5 {
   margin: 24px;
 }
 
+.container form .email-msg {
+  margin-top: 0;
+  color: white;
+  border: 1px solid rgba(219, 64, 219, 0.333);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 13px;
+  padding: 0 14px;
+  background-color: rgba(214, 64, 214, 0.333);
+  font-weight: 600;
+  display: none;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 input[type=submit] {
   width: 140px;
   height: 48px;
