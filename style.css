@@ -104,29 +104,6 @@ ul {
   cursor: pointer;
 }
 
-/**
-.mobile-1 {
-  position: absolute;
-  width: 100px;
-  height: 250px;
-  left: 0;
-  top: 150px;
-  transform: rotate(25.09deg);
-  cursor: pointer;
-  z-index: 0;
-}
-
-.mobile-2 {
-  position: absolute;
-  width: 100px;
-  height: 200px;
-  left: 64%;
-  top: 400px;
-  transform: rotate(150deg);
-  overflow: hidden;
-}
-**/
-
 .mobile-menu ul li a {
   font-size: 32px;
   font-style: normal;
