@@ -9,7 +9,66 @@
     <title>Kossi Fioklou Portfolio</title>
 </head>
 <body>
-   <!-- Mobile Menu -->
+  <!--Popup -->
+  <div class="popup-overlay hidden" id="popup">
+    <div class="card popup desk">
+      <div class="card-content desk">
+        <img
+          src="assets/Icon.png"
+          alt="close-overlay"
+          class="popup-close-btn" 
+        />
+        <h2 class="heading-secondary desk" id="name">Tonic</h2>
+        <ul class="card-info desk">
+          <li id="companyName">CANOPY</li>
+          <li>
+            <img
+              src="assets/dot.png"
+              alt="dot"
+              class="card-info-dot"
+            />
+          </li>
+          <li class="input-text" id="job">Back End Dev</li>
+          <li>
+            <img
+              src="assets/dot.png"
+              alt="dot"
+              class="card-info-dot"
+            />
+          </li>
+          <li class="input-text" id="data">2015</li>
+        </ul>
+        <img
+          class="card-img desk"
+          id="img"
+          src="./assets/SnapshootPortfolio.jpg"
+          alt="Tonic"
+        />
+        <div class="desk-pop">
+          <div class="first">
+            <p class="text-secondary mob desk" id="description"></p>
+          </div>
+          <div class="second">
+            <ul class="card-tags desk" id="lang"></ul>
+            <div class="line"></div>
+            <div class="popup-button desk">
+              <a href="#" class="button btn-element desk"
+                >See Live
+                <img src="assets/Icon-1.png" alt="live"
+              /></a>
+              <a href="#" class="button btn-element desk"
+                >See Source
+                <img src="assets/github.jpg" alt="git"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Popup-->
+
+  <!-- Mobile Menu -->
  <div id="menu" class="mobile-menu">
   <ul >
     <li class="menuList"><a href="#portfolio">Portfolio</a></li>
@@ -17,8 +76,6 @@
     <li class="menuList"><a href="#contact">Contact</a></li>
   </ul>
   <img src="assets/Icon.png" alt="Close-Menu" class="close" id="close-menu">
-  <div class="mobile-1"></div>
-  <div class="mobile-2"></div>
 </div>
 <!-- End --> 
 
@@ -101,8 +158,7 @@
     </div>
     </section>
       <!--works section talks about all the project i have done so far-->
-
-      <section class="Projects" id="portfolio">
+      <section>
         <ul class="works">
           <li class="work">
             <div class="facebook-360">
@@ -122,14 +178,14 @@
               <p class="tonic-para">A daily selection of privately personalized reads;
               no accounts or sign-ups required.
               </p>
-            <div class="lag">
-              <ul>
+            <div >
+              <ul class="card-tags">
                 <li>html</li>
                 <li>css</li>
                 <li>javaScript</li>
               </ul>
             </div>
-            <div class="btn-2">
+            <div class="btn-2" id="btn-1">
               <button type="button">See Project</button>
             </div>
             </div>
@@ -151,14 +207,14 @@
                   <p class="tonic-para">A daily selection of privately personalized reads;
                   no accounts or sign-ups required.
                   </p>
-              <div class="lag">
-                <ul>
+              <div>
+                <ul class="card-tags">
                   <li>html</li>
                   <li>css</li>
                   <li>javaScript</li>
                 </ul>
               </div>
-                <div class="btn-2">
+                <div class="btn-2" id="btn-2">
                   <button type="button">See Project</button>
                 </div>
             </div>
@@ -180,15 +236,15 @@
               <p class="tonic-para">A daily selection of privately personalized reads;
                 no accounts or sign-ups required.
               </p>
-              <div class="lag">
-              <ul>
+              <div>
+              <ul class="card-tags">
                 <li>html</li>
                 <li>css</li>
                 <li>javaScript</li>
               </ul>
               </div>
               <div>
-              <div class="btn-2">
+              <div class="btn-2" id="btn-3">
                 <button type="button">See Project</button>
               </div>
               </div>
@@ -212,22 +268,21 @@
            <p class="tonic-para">A daily selection of privately personalized reads;
            no accounts or sign-ups required.
            </p>
-          <div class="lag">
-           <ul>
+          <div >
+           <ul class="card-tags">
              <li>html</li>
              <li>css</li>
              <li>javaScript</li>
            </ul>
           </div>
-          <div class="btn-2">
+          <div class="btn-2" id="btn-4">
            <button type="button">See Project</button>
           </div>
        </div>
-     </li>
+      </li>
       </ul>
-        </section>
-              <!-- About myself page talks of my carrer as sof -->
-  
+      </section>
+       <!-- About myself page talks of my carrer as sof -->
         <section class="about-page about-page-1" id="about">
           <div class="about-content">
             <div class="about-content1">
@@ -340,9 +395,9 @@
       </div>
       <div class="container">
         <form method="POST" action="https://formspree.io/f/mrgrarlj">
-          <label>
-            <span class="labels">Your Name</span>
-          <input type="text" id="name" name="name" placeholder="name" maxlength="30" required/>
+        <label>
+          <span class="labels">Your Name</span>
+          <input type="text" id="names" name="name" placeholder="name" maxlength="30" required/>
         </label>
         <label>
           <span class="labels">Your Email</span>
@@ -356,6 +411,7 @@
         </form>
       </div> 
   </div>
+  <script src="popup.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
