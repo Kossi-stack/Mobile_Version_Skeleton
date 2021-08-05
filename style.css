@@ -104,6 +104,7 @@ ul {
   cursor: pointer;
 }
 
+/**
 .mobile-1 {
   position: absolute;
   width: 100px;
@@ -124,6 +125,7 @@ ul {
   transform: rotate(150deg);
   overflow: hidden;
 }
+**/
 
 .mobile-menu ul li a {
   font-size: 32px;
@@ -138,7 +140,6 @@ ul {
 }
 
 .mobile-menu ul li a::after {
-  content: url(assets/Icon.png);
   position: absolute;
   top: 0;
   right: 0;
