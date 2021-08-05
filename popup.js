@@ -112,4 +112,4 @@ const data = {
   
   // Popup end ////////////////////
 
-  /**btnClosePop.style.width= "30px"**/
+  
