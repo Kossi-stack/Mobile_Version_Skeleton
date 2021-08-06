@@ -25,7 +25,7 @@ const emailControl = document.querySelector('#email-address');
 
 const alertMessage = document.createElement('p');
 alertMessage.classList.add('error-Message');
-alertMessage.textContent = 'Your email should only contain lowercase letters.';
+alertMessage.textContent = 'Email should only contain lowercase letters.';
 
 const errorEmail = document.querySelector('.email-msg');
 errorEmail.appendChild(alertMessage);
