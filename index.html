@@ -1,201 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Kossi Fioklou Portfolio</title>
-</head>
-<body>
-  <!--Popup -->
-  <div class="popup-overlay hidden" id="popup">
-    <div class="card popup desk">
-      <div class="card-content desk">
-        <img
-          src="assets/Icon.png"
-          alt="close-overlay"
-          class="popup-close-btn" 
-        />
-        <h2 class="heading-secondary desk" id="name">Tonic</h2>
-        <ul class="card-info desk">
-          <li id="companyName">CANOPY</li>
-          <li>
-            <img
-              src="assets/dot.png"
-              alt="dot"
-              class="card-info-dot"
-            />
-          </li>
-          <li class="input-text" id="job">Back End Dev</li>
-          <li>
-            <img
-              src="assets/dot.png"
-              alt="dot"
-              class="card-info-dot"
-            />
-          </li>
-          <li class="input-text" id="data">2015</li>
-        </ul>
-        <img
-          class="card-img desk"
-          id="img"
-          src="./assets/SnapshootPortfolio.jpg"
-          alt="Tonic"
-        />
-        <div class="desk-pop">
-          <div class="first">
-            <p class="text-secondary mob desk" id="description"></p>
-          </div>
-          <div class="second">
-            <ul class="card-tags desk" id="lang"></ul>
-            <div class="line"></div>
-            <div class="popup-button desk">
-              <a href="#" class="button btn-element desk"
-                >See Live
-                <img src="assets/Icon-1.png" alt="live"
-              /></a>
-              <a href="#" class="button btn-element desk"
-                >See Source
-                <img src="assets/github.jpg" alt="git"
-              /></a>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-H32H88T4P0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-H32H88T4P0");
+    </script>
+  </head>
+  <body>
+    <!--Popup -->
+    <div class="popup-overlay hidden" id="popup">
+      <div class="card popup desk">
+        <div class="card-content desk">
+          <img
+            src="assets/Icon.png"
+            alt="close-overlay"
+            class="popup-close-btn"
+          />
+          <h2 class="heading-secondary desk" id="name">Tonic</h2>
+          <ul class="card-info desk">
+            <li id="companyName">CANOPY</li>
+            <li>
+              <img src="assets/dot.png" alt="dot" class="card-info-dot" />
+            </li>
+            <li class="input-text" id="job">Back End Dev</li>
+            <li>
+              <img src="assets/dot.png" alt="dot" class="card-info-dot" />
+            </li>
+            <li class="input-text" id="data">2015</li>
+          </ul>
+          <img
+            class="card-img desk"
+            id="img"
+            src="./assets/SnapshootPortfolio.jpg"
+            alt="Tonic"
+          />
+          <div class="desk-pop">
+            <div class="first">
+              <p class="text-secondary mob desk" id="description"></p>
+            </div>
+            <div class="second">
+              <ul class="card-tags desk" id="lang"></ul>
+              <div class="line"></div>
+              <div class="popup-button desk">
+                <a href="#" class="button btn-element desk"
+                  >See Live <img src="assets/Icon-1.png" alt="live"
+                /></a>
+                <a href="#" class="button btn-element desk"
+                  >See Source <img src="assets/github.jpg" alt="git"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--End Popup-->
+    <!--End Popup-->
 
-  <!-- Mobile Menu -->
- <div id="menu" class="mobile-menu">
-  <ul >
-    <li class="menuList"><a href="#portfolio">Portfolio</a></li>
-    <li class="menuList"><a href="#about">About</a></li>
-    <li class="menuList"><a href="#contact">Contact</a></li>
-  </ul>
-  <img src="assets/Icon.png" alt="Close-Menu" class="close" id="close-menu">
-</div>
-<!-- End --> 
+    <!-- Mobile Menu -->
+    <div id="menu" class="mobile-menu">
+      <ul>
+        <li class="menuList"><a href="#portfolio">Portfolio</a></li>
+        <li class="menuList"><a href="#about">About</a></li>
+        <li class="menuList"><a href="#contact">Contact</a></li>
+      </ul>
+      <img
+        src="assets/Icon.png"
+        alt="Close-Menu"
+        class="close"
+        id="close-menu"
+      />
+    </div>
+    <!-- End -->
 
     <!--This is the section for the header-->
     <header class="header">
       <nav class="nav-bar">
         <div id="logo">
-            <a href="#">
-                <img src="assets/My_Logo.png" alt="my-business-logo" class="logo">
-            </a> 
+          <a href="#">
+            <img src="assets/My_Logo.png" alt="my-business-logo" class="logo" />
+          </a>
         </div>
-          <div class="nav-buttons">
-            <a href="#portfolio" class="nav-button">Portfolio</a>
-            <a href="#about" class="nav-button">About</a>
-            <a href="#contact" class="nav-button">Contact</a>
-          </div>
-           <div class="fontawesome" id="fontawesome-icon">
-            <i class="fa fa-bars"></i>
-           </div>
+        <div class="nav-buttons">
+          <a href="#portfolio" class="nav-button">Portfolio</a>
+          <a href="#about" class="nav-button">About</a>
+          <a href="#contact" class="nav-button">Contact</a>
+        </div>
+        <div class="fontawesome" id="fontawesome-icon">
+          <i class="fa fa-bars"></i>
+        </div>
       </nav>
     </header>
     <!--Main section-->
 
-   <main>
-    <section class="main-page">
-      <div class="header-content">
-      <h1 class="header-text">I'm Kossi Fioklou <br> Glad to see you! </h1>
-      <p class="tonic-para">
-        I’m a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact
-        me.
-      </p>
-      <div class="social-media">
-        <h2 class="social-media-text">LET'S CONNECT</h2>
-        <div class="social-media-icons"></div>
-        <ul>
-          <li>
-            <a href="https://twitter.com">
-              <img
-                src="assets/twitter.jpg"
-                class="icon"
-                alt="twitter"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/kossifioklou2406/">
-              <img
-                src="assets/LinkedIn.png"
-                class="icon"
-                alt="linkedin"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://mediamarkt.es">
-              <img
-                src="assets/medium.jpg"
-                class="icon"
-                alt="mediamarket"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/Kossi-stack">
-              <img
-                src="assets/github.jpg"
-                class="icon"
-                alt="git"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://google.com">
-              <img
-                src="assets/angellist.jpg"
-                class="icon"
-                alt="google"/>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    </section>
+    <main>
+      <section class="main-page">
+        <div class="header-content">
+          <h1 class="header-text">
+            I'm Kossi Fioklou <br />
+            Glad to see you!
+          </h1>
+          <p class="tonic-para">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <div class="social-media">
+            <h2 class="social-media-text">LET'S CONNECT</h2>
+            <div class="social-media-icons"></div>
+            <ul>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="assets/twitter.jpg" class="icon" alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kossifioklou2406/">
+                  <img src="assets/LinkedIn.png" class="icon" alt="linkedin" />
+                </a>
+              </li>
+              <li>
+                <a href="https://mediamarkt.es">
+                  <img src="assets/medium.jpg" class="icon" alt="mediamarket" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Kossi-stack">
+                  <img src="assets/github.jpg" class="icon" alt="git" />
+                </a>
+              </li>
+              <li>
+                <a href="https://google.com">
+                  <img src="assets/angellist.jpg" class="icon" alt="google" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <!--works section talks about all the project i have done so far-->
       <section>
         <ul class="works">
           <li class="work">
             <div class="facebook-360">
               <div class="tonic">
-                <img src="assets/SnapshootPortfolio.jpg" class="img" alt="facebook ">
+                <img
+                  src="assets/SnapshootPortfolio.jpg"
+                  class="img"
+                  alt="facebook "
+                />
               </div>
-            </div >
+            </div>
             <div class="text-1">
               <h4>Tonic</h4>
-            <div class="tonic-2">
-              <ul class="tonic-3">
-                <li>CANOPY</li>
-                <li>Back End Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-              <p class="tonic-para">A daily selection of privately personalized reads;
-              no accounts or sign-ups required.
+              <div class="tonic-2">
+                <ul class="tonic-3">
+                  <li>CANOPY</li>
+                  <li>Back End Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p class="tonic-para">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
               </p>
-            <div >
-              <ul class="card-tags">
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <div class="btn-2" id="btn-1">
-              <button type="button">See Project</button>
-            </div>
+              <div>
+                <ul class="card-tags">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>javaScript</li>
+                </ul>
+              </div>
+              <div class="btn-2" id="btn-1">
+                <button type="button">See Project</button>
+              </div>
             </div>
           </li>
-        <li class="work1">
-          <div class="uber-navig">
-            <div class="tonic9">
-              <img src="assets/SnapshootPortfolio-2.jpg" class="img" alt="available">
+          <li class="work1">
+            <div class="uber-navig">
+              <div class="tonic9">
+                <img
+                  src="assets/SnapshootPortfolio-2.jpg"
+                  class="img"
+                  alt="available"
+                />
+              </div>
+              <div class="text-9">
+                <h4>Multi-Post Stories</h4>
+                <div class="tonic-2">
+                  <ul class="tonic-3">
+                    <li>CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                  </ul>
+                </div>
+                <p class="tonic-para">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <div>
+                  <ul class="card-tags">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javaScript</li>
+                  </ul>
+                </div>
+                <div class="btn-2" id="btn-2">
+                  <button type="button">See Project</button>
+                </div>
+              </div>
             </div>
-            <div class="text-9">
+          </li>
+          <li class="work">
+            <div class="tonic">
+              <img
+                src="assets/SnapshootPortfolio-3.jpg"
+                class="img"
+                alt="tonic"
+              />
+            </div>
+            <div class="text-1">
+              <h4>Tonic</h4>
+              <div class="tonic-2">
+                <ul class="tonic-3">
+                  <li>CANOPY</li>
+                  <li>Back End Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p class="tonic-para">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <div>
+                <ul class="card-tags">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>javaScript</li>
+                </ul>
+              </div>
+              <div>
+                <div class="btn-2" id="btn-3">
+                  <button type="button">See Project</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="work work-reverse">
+            <div class="multi-post-stories">
+              <div class="tonic">
+                <img
+                  src="assets/SnapshootPortfolio-4.jpg"
+                  class="img"
+                  alt="stories"
+                />
+              </div>
+            </div>
+            <div class="text-1">
               <h4>Multi-Post Stories</h4>
               <div class="tonic-2">
                 <ul class="tonic-3">
@@ -204,9 +286,10 @@
                   <li>2015</li>
                 </ul>
               </div>
-                  <p class="tonic-para">A daily selection of privately personalized reads;
-                  no accounts or sign-ups required.
-                  </p>
+              <p class="tonic-para">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
               <div>
                 <ul class="card-tags">
                   <li>html</li>
@@ -214,84 +297,26 @@
                   <li>javaScript</li>
                 </ul>
               </div>
-                <div class="btn-2" id="btn-2">
-                  <button type="button">See Project</button>
-                </div>
-            </div>
-          </div>
-        </li>
-        <li class="work">
-          <div class="tonic">
-            <img src="assets/SnapshootPortfolio-3.jpg" class="img" alt="tonic">
-          </div >
-          <div class="text-1">
-            <h4>Tonic</h4>
-            <div class="tonic-2">
-            <ul class="tonic-3">
-              <li>CANOPY</li>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-            </div>
-              <p class="tonic-para">A daily selection of privately personalized reads;
-                no accounts or sign-ups required.
-              </p>
-              <div>
-              <ul class="card-tags">
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-              </div>
-              <div>
-              <div class="btn-2" id="btn-3">
+              <div class="btn-2" id="btn-4">
                 <button type="button">See Project</button>
-              </div>
               </div>
             </div>
           </li>
-        <li class="work work-reverse">
-          <div class="multi-post-stories">
-          <div class="tonic">
-           <img src="assets/SnapshootPortfolio-4.jpg" class="img" alt="stories">
-          </div>
-          </div >
-          <div class="text-1">
-           <h4>Multi-Post Stories</h4>
-          <div class="tonic-2">
-          <ul class="tonic-3">
-             <li>CANOPY</li>
-             <li>Back End Dev</li>
-             <li>2015</li>
-          </ul>
-          </div>
-           <p class="tonic-para">A daily selection of privately personalized reads;
-           no accounts or sign-ups required.
-           </p>
-          <div >
-           <ul class="card-tags">
-             <li>html</li>
-             <li>css</li>
-             <li>javaScript</li>
-           </ul>
-          </div>
-          <div class="btn-2" id="btn-4">
-           <button type="button">See Project</button>
-          </div>
-       </div>
-      </li>
-      </ul>
+        </ul>
       </section>
-       <!-- About myself page talks of my carrer as sof -->
-        <section class="about-page about-page-1" id="about">
-          <div class="about-content">
-            <div class="about-content1">
-            <h3 class="about-text">About <br> Myself </h3> 
+      <!-- About myself page talks of my carrer as sof -->
+      <section class="about-page about-page-1" id="about">
+        <div class="about-content">
+          <div class="about-content1">
+            <h3 class="about-text">
+              About <br />
+              Myself
+            </h3>
             <p class="tonic-para">
               Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! 
-              If you like what you see and have a project you need coded,
-              don’t hestiate to contact me. 
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
             </p>
             <div class="social-media">
               <h2 class="social-media-text">LET'S CONNECT</h2>
@@ -300,10 +325,7 @@
               <ul class="about-social">
                 <li>
                   <a href="https://github.com/Kossi-stack">
-                    <img
-                      src="assets/github.jpg"
-                      class="icon"
-                      alt="git"/>
+                    <img src="assets/github.jpg" class="icon" alt="git" />
                   </a>
                 </li>
                 <li>
@@ -311,23 +333,18 @@
                     <img
                       src="assets/LinkedIn.png"
                       class="icon"
-                      alt="linkedin"/>
+                      alt="linkedin"
+                    />
                   </a>
                 </li>
                 <li>
                   <a href="https://google.com">
-                    <img
-                      src="assets/angellist.jpg"
-                      class="icon"
-                      alt="google"/>
+                    <img src="assets/angellist.jpg" class="icon" alt="google" />
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com">
-                    <img
-                      src="assets/twitter.jpg"
-                      class="icon"
-                      alt="twitter"/>
+                    <img src="assets/twitter.jpg" class="icon" alt="twitter" />
                   </a>
                 </li>
                 <li>
@@ -335,84 +352,114 @@
                     <img
                       src="assets/medium.jpg"
                       class="icon"
-                      alt="mediamarket"/>
+                      alt="mediamarket"
+                    />
                   </a>
                 </li>
               </ul>
             </div>
-               <div class="btn-2">
-                <button type="button">Get my resume</button>
+            <div class="btn-2">
+              <button type="button">Get my resume</button>
+            </div>
+          </div>
+          <ul class="lang-disp-list">
+            <li>
+              <div class="lang-4">
+                <h3>Languages</h3>
+                <i class="fas fa-chevron-down"></i>
               </div>
-             </div>
-              <ul class="lang-disp-list">
-                <li> 
-                  <div class="lang-4">
-                    <h3>Languages</h3> 
-                    <i class="fas fa-chevron-down"></i>
-                  </div> 
-                  <ul>
-                    <li class="lang-1">                
-                      <div class="lang-5">
-                        <img src="assets/Ellipse-1.png" class="img-list" alt="javascript">
-                        <h4>javaScript</h4>
-                      </div>
-                      <div class="lang-5">
-                        <img src="assets/Ellipse-2.png" class="img-list" alt="html">
-                        <h4>html</h4>
-                      </div>
-                      <div class="lang-5">
-                        <img src="assets/Ellipse-3.png" class="img-list" alt="css">
-                        <h4>css</h4>
-                      </div>
-                    </li> 
-                  </ul>
-                </li>
-                <li class="lang-1 lang-2">
-                  <h3>Frameworks</h3>
-                  <i class="fas fa-chevron-right"></i>
-                </li>
-                <li class="lang-1 lang-2">
-                  <h3>Skills</h3>
-                  <i class="fas fa-chevron-right"></i>
+              <ul>
+                <li class="lang-1">
+                  <div class="lang-5">
+                    <img
+                      src="assets/Ellipse-1.png"
+                      class="img-list"
+                      alt="javascript"
+                    />
+                    <h4>javaScript</h4>
+                  </div>
+                  <div class="lang-5">
+                    <img
+                      src="assets/Ellipse-2.png"
+                      class="img-list"
+                      alt="html"
+                    />
+                    <h4>html</h4>
+                  </div>
+                  <div class="lang-5">
+                    <img
+                      src="assets/Ellipse-3.png"
+                      class="img-list"
+                      alt="css"
+                    />
+                    <h4>css</h4>
+                  </div>
                 </li>
               </ul>
-            </div>
+            </li>
+            <li class="lang-1 lang-2">
+              <h3>Frameworks</h3>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li class="lang-1 lang-2">
+              <h3>Skills</h3>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <div class="contact-container" id="contact">
       <div class="contact-container-1">
-        <h5>
-          Contact me
-        </h5>
+        <h5>Contact me</h5>
         <p class="tonic-par1">
-          If you have an application
-          you are interested in developing,
-          a feature that you need built or
-          a project that needs coding. 
-          I’d love to help with it 
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
         </p>
       </div>
       <div class="container">
         <form method="POST" action="https://formspree.io/f/mrgrarlj" id="form">
-        <label>
-          <span class="labels">Your Name</span>
-          <input type="text" id="names" name="name" placeholder="name" maxlength="30" required/>
-        </label>
-        <label>
-          <span class="labels">Your Email</span>
-          <input type="email" name="email" placeholder="email@example.com" id="email-address" required/>
-        </label>
-        <label class="txt-area">
-          <span class="labels">Message</span>
-          <textarea id="subject" name="message" cols="30" rows="10" placeholder="message" maxlength="500" required></textarea>
-        </label>
+          <label>
+            <span class="labels">Your Name</span>
+            <input
+              type="text"
+              id="names"
+              name="name"
+              placeholder="name"
+              maxlength="30"
+              required
+            />
+          </label>
+          <label>
+            <span class="labels">Your Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+              id="email-address"
+              required
+            />
+          </label>
+          <label class="txt-area">
+            <span class="labels">Message</span>
+            <textarea
+              id="subject"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="message"
+              maxlength="500"
+              required
+            ></textarea>
+          </label>
           <p class="email-msg"></p>
-          <input type="submit" value="Get In Touch"/>
+          <input type="submit" value="Get In Touch" />
         </form>
-      </div> 
-  </div>
-  <script src="popup.js"></script>
-  <script src="main.js"></script>
-</body>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
