@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Kossi-Stack**
 
 - GitHub: [@githubhandle](https://github.com/Kossi-stack/Mobile_Version_Skeleton)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kossifioklou2406/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kossi-stack/)
 
 
 ## 🤝 Contributing
